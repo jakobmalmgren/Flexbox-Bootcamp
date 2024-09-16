@@ -1,0 +1,22 @@
+nav {
+  background-color: rgb(205, 185, 185);
+  height: 3rem;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+img {
+  background-color: red;
+  margin-right: auto;
+  height: 50%;
+  margin-left: 1rem;
+}
+
+nav a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  margin-right: 1rem;
+}

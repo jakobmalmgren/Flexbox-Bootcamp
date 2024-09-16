@@ -1,91 +1,66 @@
-:root {
-    font-size: 20px;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-
 body {
-    margin: 0;
-    background: rgb(212, 212, 212);
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: grey;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-article.product {
-    max-width: 400px;
-    background: #fff;
-    display: flex;
-    flex-direction: column;
-    box-shadow: 0 0 2rem rgba(0,0,0,.1);
+.product {
+  width: 300px;
+  height: 500px;
 }
-
-.product figure {
-    margin: 0;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: rgb(255, 208, 0);
+figure {
+  background: rgb(255, 208, 0);
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
-
-.product figure img {
-    width: 80%;
-    margin: 4rem 0;
+section {
+  height: 50%;
+  width: 100%;
+  background-color: white;
 }
-
-.product figure figcaption {
-    font-size: .8rem;
-    color: rgba(255,255,255,.4);
-    margin: auto .5rem .5rem auto;
+.img-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-.product section {
-    box-sizing: border-box;
-    padding: 2rem;
-    display: flex;
-    flex-direction: column;
+img {
+  width: 65%;
 }
-
-.product section h1 {
-    font-size: 1.6rem;
-    margin: 0;
+.number-wrapper {
+  margin-left: auto;
+  color: white;
 }
-
-.product section h2 {
-    margin: .25rem 0;
-    font-size: 1.2rem;
-    font-weight: 500;
+figcaption {
+  padding: 3px;
 }
-
-p {
-    font-size: 1rem;
-    line-height: 1.4;
-    color: rgba(0,0,0,.7);
+section {
+  padding: 22px;
+  /* display: flex;
+  flex-direction: column; */
 }
-
+h1 {
+  font-size: 1.5rem;
+}
+h2 {
+  font-size: 1rem;
+  margin: 0.6rem 0rem;
+}
 .price {
-    margin: 2rem 0 0 auto;
-    font-size: 2rem;
-    font-weight: 700;
-}
-
-button {
-    appearance: none;
-    border: none;
-    background: none;
-    font-size: 1rem;
-    border: 2px solid black;
-    padding: .75rem 1rem;
-    border-radius: .25rem;
-    color: black;
-    margin: auto 0 0 auto;
-}
-
-button:hover {
-    background: black;
-    color: white;
-    cursor: pointer;
+  margin-top: 2rem;
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: auto;
+  text-align: end;
 }
